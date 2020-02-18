@@ -1,0 +1,14 @@
+{
+  "name": "books-test-api",
+  "version": "1.0.0",
+  "repository": "",
+  "dependencies": {
+    "@hapi/joi": "^17.1.0",
+    "uuid": "^2.0.3"
+  },
+  "devDependencies": {
+    "aws-sdk": "^2.12.0",
+    "serverless-dynamodb-local": "^0.2.39",
+    "serverless-offline": "^3.8.3"
+  }
+}

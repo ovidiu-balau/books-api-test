@@ -1,0 +1,21 @@
+{
+  "Table": {
+    "TableName": "serverless-rest-api-with-dynamodb-dev",
+    "KeySchema": [
+      {
+        "AttributeName": "uuid",
+        "KeyType": "HASH"
+      }
+    ],
+    "AttributeDefinitions": [
+      {
+        "AttributeName": "uuid",
+        "AttributeType": "S"
+      }
+    ],
+    "ProvisionedThroughput": {
+      "ReadCapacityUnits": 1,
+      "WriteCapacityUnits": 1
+    }
+  }
+}
